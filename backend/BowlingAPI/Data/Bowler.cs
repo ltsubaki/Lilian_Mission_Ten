@@ -5,6 +5,7 @@ namespace BowlingAPI.Data;
 
 public partial class Bowler
 {
+
     public int BowlerId { get; set; }
 
     public string? BowlerLastName { get; set; }

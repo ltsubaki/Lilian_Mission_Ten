@@ -8,4 +8,6 @@ export type Bowler = {
     bowlerState: string;
     bowlerZip: string;
     bowlerPhoneNumber: string;
+    teamId: number;
+    teamName: string;
 };

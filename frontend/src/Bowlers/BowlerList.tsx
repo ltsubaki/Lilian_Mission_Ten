@@ -1,19 +1,18 @@
 import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
-
 function BowlerList() {
 
     const [BowlingData, setBowlingData] = useState<Bowler[]>([]);
 
     useEffect(() => {
-        const fetchBowlingData = async () => {
+        const fetchData = async () => {
             const rsp = await fetch('http://localhost:5210/api/Bowler');
             const b = await rsp.json();
             setBowlingData(b);
         };
-        fetchBowlingData();
-    }, []);
 
+        fetchData();
+    }, []);
 
     return (
         <>
@@ -34,7 +33,7 @@ function BowlerList() {
                     {BowlingData.map((b) => (
                         <tr key={b.bowlerId}>
                             <td>{b.bowlerFirstName}</td>
-                            <td>{b.bowlerFirstName}</td>
+                            <td>{b.teamName}</td>
                             <td>{b.bowlerAddress}</td>
                             <td>{b.bowlerCity}</td>
                             <td>{b.bowlerState}</td>

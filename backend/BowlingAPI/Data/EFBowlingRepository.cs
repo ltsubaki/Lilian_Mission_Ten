@@ -9,5 +9,6 @@ namespace BowlingAPI.Data
             _context = temp;
         }
         public IEnumerable<Bowler> Bowlers => _context.Bowlers;
+        public IEnumerable<Team> Teams => _context.Teams;
     }
 }

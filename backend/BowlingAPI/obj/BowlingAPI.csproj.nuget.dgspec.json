@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\liliantsubaki\\source\\repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj": {}
+    "C:\\Users\\liliantsubaki\\Source\\Repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\liliantsubaki\\source\\repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj": {
+    "C:\\Users\\liliantsubaki\\Source\\Repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\liliantsubaki\\source\\repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj",
+        "projectUniqueName": "C:\\Users\\liliantsubaki\\Source\\Repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj",
         "projectName": "BowlingAPI",
-        "projectPath": "C:\\Users\\liliantsubaki\\source\\repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj",
+        "projectPath": "C:\\Users\\liliantsubaki\\Source\\Repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\BowlingAPI.csproj",
         "packagesPath": "C:\\Users\\liliantsubaki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\liliantsubaki\\source\\repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\obj\\",
+        "outputPath": "C:\\Users\\liliantsubaki\\Source\\Repos\\Lilian_Mission_Ten\\backend\\BowlingAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\liliantsubaki\\AppData\\Roaming\\NuGet\\NuGet.Config",

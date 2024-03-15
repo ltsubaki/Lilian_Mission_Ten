@@ -125,3 +125,4 @@ C:\Users\liliantsubaki\source\repos\Lilian_Mission_Ten\backend\BowlingAPI\obj\De
 C:\Users\liliantsubaki\source\repos\Lilian_Mission_Ten\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.pdb
 C:\Users\liliantsubaki\source\repos\Lilian_Mission_Ten\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.genruntimeconfig.cache
 C:\Users\liliantsubaki\source\repos\Lilian_Mission_Ten\backend\BowlingAPI\obj\Debug\net8.0\ref\BowlingAPI.dll
+C:\Users\liliantsubaki\Source\Repos\Lilian_Mission_Ten\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.sourcelink.json
