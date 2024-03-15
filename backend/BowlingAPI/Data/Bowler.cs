@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BowlingAPI.Data;
 
 public partial class Bowler
 {
+    [Key]
 
     public int BowlerId { get; set; }
 
@@ -23,6 +26,7 @@ public partial class Bowler
     public string? BowlerZip { get; set; }
 
     public string? BowlerPhoneNumber { get; set; }
+    [ForeignKey ("TeamId")]
 
     public int? TeamId { get; set; }
 

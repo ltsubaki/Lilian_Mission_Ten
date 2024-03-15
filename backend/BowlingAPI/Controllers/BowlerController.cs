@@ -1,6 +1,7 @@
 ﻿using BowlingAPI.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BowlingAPI.Controllers
 {
@@ -14,10 +15,10 @@ namespace BowlingAPI.Controllers
             _bowlerRepository = temp;
         }
 
-        public IEnumerable<Bowler> GetBowlers()
+        [HttpGet]
+        public IEnumerable<JoinedBowler> GetInfo()
         {
-            var bowlerData = _bowlerRepository.Bowlers.ToArray();
-
+            var bowlerData = _bowlerRepository.GetInfo().ToList();
             return bowlerData;
         }
     }

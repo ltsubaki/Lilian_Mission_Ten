@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace BowlingAPI.Data;
 
 public partial class Team
 {
+    [Key]
     public int TeamId { get; set; }
 
-    public string TeamName { get; set; } = null!;
+    public string TeamName { get; set; }
 
     public int? CaptainId { get; set; }
 
