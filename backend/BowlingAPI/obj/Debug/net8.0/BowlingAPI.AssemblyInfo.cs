@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BowlingAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c18a50a0c11e3161919cc49f2aca74cf71bfae0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb2189c9ae611abc3fcc1a29e526c8ac00183e64")]
 [assembly: System.Reflection.AssemblyProductAttribute("BowlingAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BowlingAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
